@@ -1,0 +1,17 @@
+{
+  "name": "jump-snmp",
+  "version": "1.0.0",
+  "description": "Petición SNMP hacia un servidor remoto mediante SSH utilizando un servidor intermediario" ,
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Keiber Urbila <keiberup.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ssh2": "1.11.0"
+  }
+}
